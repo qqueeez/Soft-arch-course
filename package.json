@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node src/index.js",
-    "migration:generate": "drizzle-kit generate"
+    "migration:generate": "drizzle-kit generate",
+    "migration:push": "drizzle-kit push"
   },
   "author": "illia voloshyn",
   "license": "ISC",
